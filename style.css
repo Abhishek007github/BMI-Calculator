@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+    body{
+        width: 100%;
+        height: 100%;
+        padding-block: 2rem;
+        background-color: #0092ca;
+        color: black;
+    }
+    .container{
+        width: 30%;
+        margin: 0 auto;
+        padding:1.5rem;
+        padding-bottom: 3rem;
+        outline: 1rem solid #78aec3ab;
+        border-radius: 0.5rem;
+        background-color: #edecec;
+        display: flex;
+        justify-content: flex-start;
+        align-items: self-start;
+        flex-direction: column;
+    }
+    .container h1{
+        width: 100%;
+        font-size: 2.5rem;
+        font-weight: 700;
+        font-family: sans-serif;
+        text-align: center;
+        color: black;
+    }
+    form{
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: self-start;
+        gap: 1rem;
+        flex-direction: column;
+    }
+    form .height,
+    form .weight,
+    form .sumbit{
+        width: 100%;
+        margin: 0 auto;
+    }
+    form .height label,
+    form .weight label{
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 3rem;
+        color: black;
+    }
+    form .height input,
+    form .weight input{
+        width: 90%;
+        font-size: 20px;
+        border-radius: 0.2rem;
+        padding-block: 8px;
+        border: 1px solid black;
+        padding-left: 0.5rem;
+    }
+    form .sumbit input{
+        font-size: 18px;
+        padding-block: 8px;
+        padding-inline: 26px;
+        color: white;
+        cursor: pointer;
+        background-color: rgb(46, 46, 238);  
+        border: none;
+        border-radius: 0.5rem;
+        outline: none; 
+    }
+    .container h3,
+    .container h2{
+        width: 100%;
+        margin: 0 auto;
+        font-size: 1.3rem;
+    }
+    @media screen and (max-width: 1024px) {
+        .container{
+            width: 50%;
+            margin: 0 auto;
+            padding:1.5rem;
+            padding-bottom: 3rem;
+            outline: 1rem solid #78aec3ab;
+            border-radius: 0.5rem;
+            background-color: #edecec;
+            display: flex;
+            justify-content: flex-start;
+            align-items: self-start;
+            flex-direction: column;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .container{
+            width: 80%;
+            margin: 0 auto;
+            padding:1.5rem;
+            padding-bottom: 3rem;
+            outline: 1rem solid #78aec3ab;
+            border-radius: 0.5rem;
+            background-color: #edecec;
+            display: flex;
+            justify-content: flex-start;
+            align-items: self-start;
+            flex-direction: column;
+        }
+    }
+    @media screen and (max-width: 425px) {
+        .container h1{
+            width: 100%;
+            font-size: 1.8rem;
+            font-weight: 700;
+            font-family: sans-serif;
+            text-align: center;
+            color: black;
+        }
+    }
